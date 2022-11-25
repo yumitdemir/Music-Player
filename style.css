@@ -1,0 +1,105 @@
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0) !important;
+}
+
+img{
+    height: 300px;
+    object-fit: cover;
+}
+.card{
+    -webkit-box-shadow: 0px 0px 300px -6px rgba(255,255,255,1);
+-moz-box-shadow: 0px 0px 300px -6px rgba(255,255,255,1);
+box-shadow: 0px 0px 300px -6px rgba(255,255,255,1);
+    width: 350px;
+
+border: 3px solid white;
+    
+}
+.card-body{
+    background-color: black;
+}
+.time-duration{
+    display: flex;
+
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+}
+
+.controls{
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.time-duration{
+    display: flex;
+    justify-content: space-between;
+}
+
+#music-title{
+    font-size: 1rem;
+    color: white;
+    
+    
+}
+
+#duration, #next,#prev {
+    color: rgb(79, 79, 79);
+}
+
+#time, #play,#volume {
+   
+    color: rgb(179, 179, 179);
+}
+
+.title-maker{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#artist{
+    margin-bottom: 0;
+    color: rgb(79, 79, 79);
+    font-size: small;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header i{
+    margin-left: 12px;
+    font-size: large;
+    color: rgb(179, 179, 179);
+}
+
+.ppn{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    align-items: center;
+}
+
+#list{
+    background-color: black !important;
+}
+#music-list{
+    padding-top: 15px;
+    
+    cursor: pointer;
+   
+}
+
+#music-list ul{
+    gap: 10px;
+}
